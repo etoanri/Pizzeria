@@ -1,0 +1,131 @@
+@media (max-width: 1399.5px) {
+    .product__list {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 1199.5px) {
+    .product__link {
+        padding: 18px 20px;
+    }
+
+    .comments {
+        padding: 0 0 50px;
+    }
+}
+
+@media (max-width: 991.5px) {
+    .info__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        margin-bottom: 30px;
+    }
+
+    .recipe {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .recipe__title {
+        padding-bottom: 30px;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .recipe__text {
+        text-align: center;
+    }
+
+    .recipe__signature {
+        justify-content: center;
+    }
+
+    .product__element {
+        font-size: 14px;
+    }
+
+    .product__price {
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 767.5px) {
+    .header__title {
+        font-size: 60px;
+    }
+
+    .header__title::before {
+        margin-bottom: 20px;
+    }
+
+    .header__title::after {
+        content: 'Всего за 249 900 сум';
+        display: block;
+        font-size: 18px;
+        font-weight: 400;
+        margin: 20px 0 40px;
+    }
+
+    .product__view {
+        margin: 0 auto 20px;
+    }
+
+    .menu__title {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+}
+
+@media (max-width: 575.5px) {
+    .call {
+        margin-left: 0;
+        margin-top: 10px;
+        padding: 15px 30px;
+    }
+
+    .tel {
+        font-size: 20px;
+    }
+
+    .header__title {
+        font-size: 34px;
+    }
+
+    .header__title::before {
+        font-size: 16px;
+    }
+
+    .header__title::after {
+        font-size: 16px;
+        font-weight: 400;
+        margin: 15px 0 30px;
+    }
+
+    .recipe {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .recipe__title {
+        font-size: 24px;
+        padding-bottom: 20px;
+        margin-top: 30px;
+    }
+
+    .recipe__text {
+        font-size: 16px;
+    }
+
+    .recipe__signature p {
+        margin: 15px 0;
+    }
+
+    .product {
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+}
